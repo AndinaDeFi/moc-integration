@@ -1,6 +1,8 @@
 # Cómo empezar
 
 ```
+git clone git@github.com:AndinaDeFi/moc-integration.git
+cd moc-integration
 npm install
 node <archivo_a_correr>
 ```
