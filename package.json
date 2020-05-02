@@ -1,0 +1,16 @@
+{
+  "name": "example-mint-bpro",
+  "version": "1.0.0",
+  "description": "Siguiendo https://github.com/money-on-chain/main-RBTC-contract/blob/master/integration-to-MOC-platform.md#using-web3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bruno Calmels",
+  "license": "ISC",
+  "dependencies": {
+    "bignumber.js": "^9.0.0",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.2.7"
+  }
+}
