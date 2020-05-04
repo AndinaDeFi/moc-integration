@@ -75,6 +75,9 @@ const execute = async () => {
 
   const mintBprox2 = async btcAmount => {
     const [from] = await web3.eth.getAccounts();
+
+    console.log(`Address: ${from}`);
+
     const weiAmount = web3.utils.toWei(btcAmount, 'ether');
     const btcInterestAmount = await mocInrate.methods.calcMintInterestValues(strToBytes32(bucketX2), weiAmount).call();
     const commissionValue = new BigNumber(
@@ -106,7 +109,7 @@ const execute = async () => {
       .on('error', console.error);
   };
 
-  const btcToMint = '0.00102';
+  const btcToMint = '0.0001';
   // Gets max BTC value available to mint BPROX2
   const maxBtcToMint = await mocState.methods.maxBProxBtcValue(strToBytes32(bucketX2)).call();
 

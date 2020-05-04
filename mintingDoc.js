@@ -105,7 +105,7 @@ const execute = async () => {
       .on('error', console.error);
   };
 
-  // Gets max BPRO available to mint
+  // Gets max DoC available to mint
   const getAbsoluteMaxDoc = await mocState.methods.absoluteMaxDoc().call();
   const btcAmount = '0.03';
 

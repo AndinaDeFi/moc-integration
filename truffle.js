@@ -1,8 +1,8 @@
 const HDWalletProvider = require('truffle-hdwallet-provider');
 
 const mnemonic =
-  process.env.MNEMONIC || "chase chair crew elbow uncle awful cover asset cradle pet loud puzzle";
-  // process.env.MNEMONIC || 'lab direct float merit wall huge wheat loyal maple cup battle butter';
+  process.env.MNEMONIC || "filter yard prison quality subject engage exhibit zebra divert picnic spread crystal";
+// process.env.MNEMONIC || "chase chair crew elbow uncle awful cover asset cradle pet loud puzzle";
 
 module.exports = {
   // See <http://truffleframework.com/docs/advanced/configuration>
